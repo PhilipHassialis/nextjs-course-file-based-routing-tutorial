@@ -7,7 +7,7 @@ const ClientsProjectsPage = () => {
 
     return (
         <div>
-            <h4>The projects of a given client ({router.query.id})</h4>
+            <h4>The projects of a given client with id {router.query.id}</h4>
         </div>
     );
 };
